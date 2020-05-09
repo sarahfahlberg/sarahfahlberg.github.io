@@ -1,253 +1,237 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1671.5">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
-  </style>
-</head>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
 <body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html lang="en"&gt;</p>
-<p class="p1">&lt;title&gt;W3.CSS Template&lt;/title&gt;</p>
-<p class="p1">&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1">&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</p>
-<p class="p1">&lt;link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"&gt;</p>
-<p class="p1">&lt;link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato"&gt;</p>
-<p class="p1">&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"&gt;</p>
-<p class="p1">&lt;style&gt;</p>
-<p class="p1">body {font-family: "Lato", sans-serif}</p>
-<p class="p1">.mySlides {display: none}</p>
-<p class="p1">&lt;/style&gt;</p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;!-- Navbar --&gt;</p>
-<p class="p1">&lt;div class="w3-top"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="w3-bar w3-black w3-card"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"&gt;&lt;i class="fa fa-bars"&gt;&lt;/i&gt;&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="#" class="w3-bar-item w3-button w3-padding-large"&gt;HOME&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small"&gt;BAND&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small"&gt;TOUR&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small"&gt;CONTACT&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="w3-dropdown-hover w3-hide-small"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;button class="w3-padding-large w3-button" title="More"&gt;MORE &lt;i class="fa fa-caret-down"&gt;&lt;/i&gt;&lt;/button&gt;<span class="Apple-converted-space">     </span></p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="w3-dropdown-content w3-bar-block w3-card-4"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#" class="w3-bar-item w3-button"&gt;Merchandise&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#" class="w3-bar-item w3-button"&gt;Extras&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#" class="w3-bar-item w3-button"&gt;Media&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"&gt;&lt;i class="fa fa-search"&gt;&lt;/i&gt;&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) --&gt;</p>
-<p class="p1">&lt;div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"&gt;BAND&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"&gt;TOUR&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"&gt;CONTACT&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"&gt;MERCH&lt;/a&gt;</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;!-- Page content --&gt;</p>
-<p class="p1">&lt;div class="w3-content" style="max-width:2000px;margin-top:46px"&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- Automatic Slideshow Images --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="mySlides w3-display-container w3-center"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;img src="/w3images/la.jpg" style="width:100%"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;h3&gt;Los Angeles&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;p&gt;&lt;b&gt;We had the best time playing at Venice Beach!&lt;/b&gt;&lt;/p&gt;<span class="Apple-converted-space">   </span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="mySlides w3-display-container w3-center"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;img src="/w3images/ny.jpg" style="width:100%"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;h3&gt;New York&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;p&gt;&lt;b&gt;The atmosphere in New York is lorem ipsum.&lt;/b&gt;&lt;/p&gt; <span class="Apple-converted-space">   </span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="mySlides w3-display-container w3-center"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;img src="/w3images/chicago.jpg" style="width:100%"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;h3&gt;Chicago&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;p&gt;&lt;b&gt;Thank you, Chicago - A night we won't forget.&lt;/b&gt;&lt;/p&gt; <span class="Apple-converted-space">   </span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- The Band Section --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2 class="w3-wide"&gt;THE BAND&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p class="w3-opacity"&gt;&lt;i&gt;We love music&lt;/i&gt;&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p class="w3-justify"&gt;We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
-<p class="p1"><span class="Apple-converted-space">      </span>ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur</p>
-<p class="p1"><span class="Apple-converted-space">      </span>adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="w3-row w3-padding-32"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="w3-third"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Name&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="w3-third"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Name&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="w3-third"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Name&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;img src="/w3images/bandmember.jpg" class="w3-round" alt="Random Name" style="width:60%"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- The Tour Section --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="w3-black" id="tour"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="w3-container w3-content w3-padding-64" style="max-width:800px"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;h2 class="w3-wide w3-center"&gt;TOUR DATES&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;p class="w3-opacity w3-center"&gt;&lt;i&gt;Remember to book your tickets!&lt;/i&gt;&lt;/p&gt;&lt;br&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;ul class="w3-ul w3-border w3-white w3-text-grey"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;li class="w3-padding"&gt;September &lt;span class="w3-tag w3-red w3-margin-left"&gt;Sold out&lt;/span&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;li class="w3-padding"&gt;October &lt;span class="w3-tag w3-red w3-margin-left"&gt;Sold out&lt;/span&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;li class="w3-padding"&gt;November &lt;span class="w3-badge w3-right w3-margin-right"&gt;3&lt;/span&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/ul&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="w3-row-padding w3-padding-32" style="margin:0 -16px"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="w3-third w3-margin-bottom"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;img src="/w3images/newyork.jpg" alt="New York" style="width:100%" class="w3-hover-opacity"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="w3-container w3-white"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;&lt;b&gt;New York&lt;/b&gt;&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="w3-opacity"&gt;Fri 27 Nov 2016&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;Praesent tincidunt sed tellus ut rutrum sed vitae justo.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'"&gt;Buy Tickets&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="w3-third w3-margin-bottom"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;img src="/w3images/paris.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="w3-container w3-white"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;&lt;b&gt;Paris&lt;/b&gt;&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="w3-opacity"&gt;Sat 28 Nov 2016&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;Praesent tincidunt sed tellus ut rutrum sed vitae justo.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'"&gt;Buy Tickets&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="w3-third w3-margin-bottom"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;img src="/w3images/sanfran.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="w3-container w3-white"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;&lt;b&gt;San Francisco&lt;/b&gt;&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="w3-opacity"&gt;Sun 29 Nov 2016&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;Praesent tincidunt sed tellus ut rutrum sed vitae justo.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'"&gt;Buy Tickets&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- Ticket Modal --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div id="ticketModal" class="w3-modal"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="w3-modal-content w3-animate-top w3-card-4"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;header class="w3-container w3-teal w3-center w3-padding-32"&gt;<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;span onclick="document.getElementById('ticketModal').style.display='none'"<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">       </span>class="w3-button w3-teal w3-xlarge w3-display-topright"&gt;×&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2 class="w3-wide"&gt;&lt;i class="fa fa-suitcase w3-margin-right"&gt;&lt;/i&gt;Tickets&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/header&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="w3-container"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;&lt;label&gt;&lt;i class="fa fa-shopping-cart"&gt;&lt;/i&gt; Tickets, $15 per person&lt;/label&gt;&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;input class="w3-input w3-border" type="text" placeholder="How many?"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;&lt;label&gt;&lt;i class="fa fa-user"&gt;&lt;/i&gt; Send To&lt;/label&gt;&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;input class="w3-input w3-border" type="text" placeholder="Enter email"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right"&gt;PAY &lt;i class="fa fa-check"&gt;&lt;/i&gt;&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'"&gt;Close &lt;i class="fa fa-remove"&gt;&lt;/i&gt;&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p class="w3-right"&gt;Need &lt;a href="#" class="w3-text-blue"&gt;help?&lt;/a&gt;&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- The Contact Section --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2 class="w3-wide w3-center"&gt;CONTACT&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p class="w3-opacity w3-center"&gt;&lt;i&gt;Fan? Drop a note!&lt;/i&gt;&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="w3-row w3-padding-32"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="w3-col m6 w3-large w3-margin-bottom"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;i class="fa fa-map-marker" style="width:30px"&gt;&lt;/i&gt; Chicago, US&lt;br&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;i class="fa fa-phone" style="width:30px"&gt;&lt;/i&gt; Phone: +00 151515&lt;br&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;i class="fa fa-envelope" style="width:30px"&gt; &lt;/i&gt; Email: mail@mail.com&lt;br&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="w3-col m6"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;form action="/action_page.php" target="_blank"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="w3-row-padding" style="margin:0 -16px 8px -16px"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="w3-half"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">              </span>&lt;input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="w3-half"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">              </span>&lt;input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;button class="w3-button w3-black w3-section w3-right" type="submit"&gt;SEND&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/form&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p2"><span class="Apple-converted-space">  </span></p>
-<p class="p1">&lt;!-- End Page Content --&gt;</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;!-- Image of location/map --&gt;</p>
-<p class="p1">&lt;img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%"&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;!-- Footer --&gt;</p>
-<p class="p1">&lt;footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;i class="fa fa-facebook-official w3-hover-opacity"&gt;&lt;/i&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;i class="fa fa-instagram w3-hover-opacity"&gt;&lt;/i&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;i class="fa fa-snapchat w3-hover-opacity"&gt;&lt;/i&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;i class="fa fa-pinterest-p w3-hover-opacity"&gt;&lt;/i&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;i class="fa fa-twitter w3-hover-opacity"&gt;&lt;/i&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;i class="fa fa-linkedin w3-hover-opacity"&gt;&lt;/i&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;p class="w3-medium"&gt;Powered by &lt;a href="https://www.w3schools.com/w3css/default.asp" target="_blank"&gt;w3.css&lt;/a&gt;&lt;/p&gt;</p>
-<p class="p1">&lt;/footer&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;script&gt;</p>
-<p class="p1">// Automatic Slideshow - change image every 4 seconds</p>
-<p class="p1">var myIndex = 0;</p>
-<p class="p1">carousel();</p>
-<p class="p2"><br></p>
-<p class="p1">function carousel() {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var i;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var x = document.getElementsByClassName("mySlides");</p>
-<p class="p1"><span class="Apple-converted-space">  </span>for (i = 0; i &lt; x.length; i++) {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>x[i].style.display = "none"; <span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">  </span>}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>myIndex++;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>if (myIndex &gt; x.length) {myIndex = 1} <span class="Apple-converted-space">   </span></p>
-<p class="p1"><span class="Apple-converted-space">  </span>x[myIndex-1].style.display = "block"; <span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">  </span>setTimeout(carousel, 4000); <span class="Apple-converted-space">   </span></p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">// Used to toggle the menu on small screens when clicking on the menu button</p>
-<p class="p1">function myFunction() {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var x = document.getElementById("navDemo");</p>
-<p class="p1"><span class="Apple-converted-space">  </span>if (x.className.indexOf("w3-show") == -1) {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>x.className += " w3-show";</p>
-<p class="p1"><span class="Apple-converted-space">  </span>} else {<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>x.className = x.className.replace(" w3-show", "");</p>
-<p class="p1"><span class="Apple-converted-space">  </span>}</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">// When the user clicks anywhere outside of the modal, close it</p>
-<p class="p1">var modal = document.getElementById('ticketModal');</p>
-<p class="p1">window.onclick = function(event) {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>if (event.target == modal) {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>modal.style.display = "none";</p>
-<p class="p1"><span class="Apple-converted-space">  </span>}</p>
-<p class="p1">}</p>
-<p class="p1">&lt;/script&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BAND</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOUR</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Merchandise</a>
+        <a href="#" class="w3-bar-item w3-button">Extras</a>
+        <a href="#" class="w3-bar-item w3-button">Media</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="/w3images/la.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Los Angeles</h3>
+      <p><b>We had the best time playing at Venice Beach!</b></p>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="/w3images/ny.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>New York</h3>
+      <p><b>The atmosphere in New York is lorem ipsum.</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="/w3images/chicago.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Chicago</h3>
+      <p><b>Thank you, Chicago - A night we won't forget.</b></p>    
+    </div>
+  </div>
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">THE BAND</h2>
+    <p class="w3-opacity"><i>We love music</i></p>
+    <p class="w3-justify">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>Name</p>
+        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Name</p>
+        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Name</p>
+        <img src="/w3images/bandmember.jpg" class="w3-round" alt="Random Name" style="width:60%">
+      </div>
+    </div>
+  </div>
+
+  <!-- The Tour Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">TOUR DATES</h2>
+      <p class="w3-opacity w3-center"><i>Remember to book your tickets!</i></p><br>
+
+      <ul class="w3-ul w3-border w3-white w3-text-grey">
+        <li class="w3-padding">September <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+        <li class="w3-padding">October <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+        <li class="w3-padding">November <span class="w3-badge w3-right w3-margin-right">3</span></li>
+      </ul>
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="/w3images/newyork.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>New York</b></p>
+            <p class="w3-opacity">Fri 27 Nov 2016</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="/w3images/paris.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Paris</b></p>
+            <p class="w3-opacity">Sat 28 Nov 2016</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="/w3images/sanfran.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>San Francisco</b></p>
+            <p class="w3-opacity">Sun 29 Nov 2016</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ticket Modal -->
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="How many?">
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Chicago, US<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
 </body>
 </html>

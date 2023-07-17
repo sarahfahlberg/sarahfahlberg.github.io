@@ -1,0 +1,20 @@
+﻿..
+    Adapted from scikit-learn/main/doc/templates/class.rst
+    The empty line below should not be removed. It is added such that the `rst_prolog`
+    is added before the :mod: directive. Otherwise, the rendering will show as a
+    paragraph instead of a header.
+
+:html_theme.sidebar_secondary.remove:
+
+:mod:`isopt.optimizers`.SimulatedAnnealing
+=================================================
+
+.. currentmodule:: isopt.optimizers
+
+.. autoclass:: SimulatedAnnealing
+    :members:
+    :inherited-members:
+
+.. raw:: html
+
+    <div class="clearer"></div>

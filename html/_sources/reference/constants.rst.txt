@@ -1,0 +1,17 @@
+.. _constants:
+
+=============
+Constants
+=============
+
+.. currentmodule:: isopt
+
+Constants
+~~~~~~~~~~~~~
+
+Extract lemma form from a string/list of string
+
+.. autosummary::
+    :toctree: generated/
+
+    my_func

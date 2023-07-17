@@ -1,0 +1,18 @@
+.. _optimizers:
+
+=============
+Optimizers
+=============
+
+
+.. currentmodule:: isopt
+
+.. autosummary::
+   :nosignatures:
+   :toctree: generated/
+   :template: class.rst
+
+    optimizers.BaseOptimizer
+    optimizers.SimulatedAnnealing
+    optimizers.StandardSA
+    optimizers.AutoAcceptSA

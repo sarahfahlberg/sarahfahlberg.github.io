@@ -1,0 +1,6 @@
+﻿isopt.my\_func
+==============
+
+.. currentmodule:: isopt
+
+.. autofunction:: my_func
